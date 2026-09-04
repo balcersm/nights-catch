@@ -1,0 +1,5 @@
+# Night's Catch — https://nightscatch.co.uk
+User-agent: *
+Allow: /
+
+Sitemap: https://nightscatch.co.uk/sitemap.xml

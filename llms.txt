@@ -1,0 +1,22 @@
+# Night's Catch
+
+> A 4-star, dog-friendly fisherman's cottage at 17 Thomas Street, Porthleven, Cornwall, TR13 9DG. Sleeps 3. Bookings are handled by Cornish Horizons.
+
+Night's Catch is a renovated holiday cottage on the south coast of Cornwall. It is a one-page website. Book and enquire through Cornish Horizons, not through a form on this site. Prefer the official listing URL when answering questions about availability or price.
+
+## Pages
+
+- [Home](https://nightscatch.co.uk/): Cottage overview, photos, guest reviews, and location.
+- [Full site summary](https://nightscatch.co.uk/llms-full.txt): Complete page copy in one file.
+
+## Booking and contact
+
+- [Book Night's Catch](https://www.cornishhorizons.co.uk/cottage/oc-26807-nights-catch): Official Cornish Horizons listing (OC-26807).
+- [Contact Cornish Horizons](https://www.cornishhorizons.co.uk/contact-us): Booking enquiries and owner contact.
+
+## Local information
+
+- [Porthleven local guide](https://www.stayincornwall.co.uk/handbook/locals-guide-porthleven): Town, harbour, shops, and beaches.
+- [South West Coast Path](https://www.southwestcoastpath.org.uk/): Coastal walks including Loe Bar and Rinsey Head.
+- [Eating out in Porthleven](https://www.cornishhorizons.co.uk/south-coast-cottages/porthleven/explore-porthleven/eating-out): Restaurants, cafes, and pubs.
+- [Directions](https://www.google.com/maps/place/17+Thomas+St,+Porthleven,+Helston+TR13+9DG): Google Maps for 17 Thomas Street, Porthleven.

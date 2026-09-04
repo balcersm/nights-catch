@@ -31,6 +31,36 @@
     track.innerHTML += track.innerHTML;
   }
 
+  const reviews = document.querySelector("[data-reviews]");
+  if (reviews) {
+    const track = reviews.querySelector(".reviews-track");
+    const cards = Array.from(reviews.querySelectorAll(".review-card"));
+    const prev = reviews.querySelector(".review-nav--prev");
+    const next = reviews.querySelector(".review-nav--next");
+    const dotsWrap = reviews.querySelector(".review-dots");
+    let index = 0;
+
+    cards.forEach((_, i) => {
+      const dot = document.createElement("button");
+      dot.type = "button";
+      dot.setAttribute("aria-label", `Show review ${i + 1}`);
+      dot.addEventListener("click", () => goTo(i));
+      dotsWrap.appendChild(dot);
+    });
+
+    const goTo = (nextIndex) => {
+      index = (nextIndex + cards.length) % cards.length;
+      track.style.transform = `translateX(-${index * 100}%)`;
+      dotsWrap.querySelectorAll("button").forEach((dot, i) => {
+        dot.classList.toggle("is-active", i === index);
+      });
+    };
+
+    prev.addEventListener("click", () => goTo(index - 1));
+    next.addEventListener("click", () => goTo(index + 1));
+    goTo(0);
+  }
+
   const shot = new URLSearchParams(window.location.search).get("shot");
   if (shot) {
     const target = document.getElementById(shot);
