@@ -356,12 +356,15 @@ p:last-child {
 .gallery-slide {
   margin: 0;
   flex: 0 0 450px;
+  overflow: hidden;
+  border-radius: 14px;
 }
 
 .gallery-slide img {
   width: 450px;
   height: 300px;
   object-fit: cover;
+  border-radius: 14px;
 }
 
 @keyframes gallery-marquee {
