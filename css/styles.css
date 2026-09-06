@@ -346,7 +346,7 @@ p:last-child {
   display: flex;
   gap: 30px;
   width: max-content;
-  animation: gallery-marquee 42s linear infinite;
+  animation: gallery-marquee 100s linear infinite;
 }
 
 .gallery-track:hover {
