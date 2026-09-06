@@ -314,9 +314,10 @@ p:last-child {
 
 .hero-inner {
   width: min(900px, calc(100% - 80px));
-  margin: 0 0 0 -60px;
+  margin: 0 auto;
   text-align: center;
   padding: 0 4%;
+  bottom: -60px;
 }
 
 .hero-title {
