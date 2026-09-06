@@ -338,8 +338,9 @@ p:last-child {
 
 /* Gallery */
 .gallery {
-  margin-top: 130px;
+  margin-top: 120px;
   overflow: hidden;
+  margin-bottom: -60px'
 }
 
 .gallery-track {
